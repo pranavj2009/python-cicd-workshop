@@ -13,7 +13,7 @@ jobs:
       - python/save-cache
      - run:
       name: Run Tests
-      command: ~/.local/bin/pytest
+      command: ~/.local/bin/pytest 
 
 workflows:
   main:

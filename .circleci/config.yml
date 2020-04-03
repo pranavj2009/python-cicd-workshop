@@ -14,10 +14,6 @@ jobs:
      - run:
       	name: Run Tests
     	command: ~/.local/bin/pytest 
-      
-     - store_artifacts:
-     	path: test-reports
-      	destination: test-reports
 
 workflows:
   main:
